@@ -1,5 +1,5 @@
 import { PropsWithChildren } from "react";
-import { Nav } from "./NavComponent";
+import { Nav } from "./Nav";
 
 export function Layout({ children }: PropsWithChildren) {
   return (
