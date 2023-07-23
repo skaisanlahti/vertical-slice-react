@@ -1,1 +1,7 @@
-@import "./reset.css";
+@import "./styles/reset.css";
+@import "./styles/text.css";
+@import "./styles/spacing.css";
+@import "./styles/colors.css";
+@import "./styles/theme.css";
+@import "./todos/styles/todo_form.css";
+@import "./todos/styles/todo_list.css";

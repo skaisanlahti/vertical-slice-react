@@ -1,6 +1,7 @@
 type Ok<T> = { isError: false; value: T };
 type Fail<E> = { isError: true; error: E };
 export type Result<T, E> = Ok<T> | Fail<E>;
+export type AsyncResult<T, E> = Promise<Result<T, E>>;
 
 export function ok<T, E>(value: T): Result<T, E> {
   return { isError: false, value };
